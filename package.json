@@ -14,8 +14,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "scripts": {
-    "install": "webdriver-manager update --standalone --versions.chrome 2.28 --gecko false",
+  "scripts": {   
     "start": "grunt serve",
     "build": "grunt build",
     "test": ":",
